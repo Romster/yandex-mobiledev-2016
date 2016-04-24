@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+	android:paddingTop="5dp"
+	android:paddingBottom="5dp">
+	<ImageView
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:maxWidth="100dp"
+		android:layout_margin="5dp"
+		android:id="@+id/pop_item_image_iv"
+		android:src="@drawable/default_icon"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:scaleType="centerCrop"/>
+	<TextView
+		android:id="@+id/pop_item_title_tv"
+		android:textStyle="bold"
+		android:textSize="22sp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		tools:text="Name"
+		android:maxLines="1"
+		android:layout_alignTop="@id/pop_item_image_iv"
+		android:layout_toRightOf="@id/pop_item_image_iv"/>
+	<TextView
+		android:id="@+id/pop_item_genre_tv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:maxLines="2"
+		android:layout_marginTop="5dp"
+		android:layout_alignLeft="@id/pop_item_title_tv"
+		android:layout_below="@id/pop_item_title_tv"
+		tools:text=" вич панк хард трип рапорвэйв блэк фолк чил вэйв дарк стэп трэп  диско ганста поп"/>
+
+
+	<TextView
+		android:id="@+id/pop_item_info_tv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:maxLines="1"
+		android:textSize="18sp"
+		android:layout_alignLeft="@id/pop_item_title_tv"
+		android:layout_alignBottom="@id/pop_item_image_iv"
+		tools:text="1 альбом, 1 песня"/>
+</RelativeLayout>

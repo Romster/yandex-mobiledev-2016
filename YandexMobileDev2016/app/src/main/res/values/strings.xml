@@ -1,0 +1,11 @@
+<resources>
+	<string name="app_name">YandexPop</string>
+	<string name="musicians">Исполнители</string>
+	<string name="musician_stats">%1$d альбомов, %2$d песен</string>
+	<string name="refresh">Обновить</string>
+	<string name="parsing_process">Идёт обработка</string>
+	<string name="biography">Биография</string>
+
+	<string name="error_network">Ошибка при попытке получить данные</string>
+	<string name="error_parse">Ошибка формата данных</string>
+</resources>
